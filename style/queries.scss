@@ -1,0 +1,21 @@
+@media screen and (max-width: 767px) {
+    #logo {
+        text-align:center !important;
+    }
+
+    #searching{
+        margin-top:5px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .cleaner-small{
+        display:block;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .cleaner-large{
+         display:block;
+    }
+}

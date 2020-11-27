@@ -1,0 +1,76 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.cleaner {
+  clear: both;
+  display: none;
+}
+
+body {
+  background-color: #F5F5F5;
+}
+
+img, nav, footer {
+  border-radius: 3px;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 5px;
+  background-color: #3166af;
+  margin-bottom: 30px;
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+  border-radius: 3px;
+}
+
+/*index.html*/
+#logo img, #logo h1 {
+  padding-top: 15px;
+}
+
+.carousel-inner {
+  margin-bottom: 40px;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+}
+
+/*katalog.html*/
+#catcontent {
+  background-image: url("../images/book.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 50vh;
+  padding-bottom: 30px;
+}
+
+#backhome {
+  color: #FFF;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5px;
+}
+
+#catalogue {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+}
+
+#catalogue label {
+  color: #000;
+}
+/*# sourceMappingURL=style.css.map */
